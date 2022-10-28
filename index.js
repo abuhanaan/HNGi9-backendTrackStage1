@@ -1,10 +1,10 @@
 const express = require('express');
 const app = express()
 
-const port = '5000'
+const port = '3000'
 
 app.get('/', (req, res)=> {
-    res.send({ "slackUsername": 'Mustopha Qomorudeen', "backend": true, "age": 27, 
+    res.send({ "slackUsername": 'adewunmi', "backend": true, "age": 27, 
                  "bio": 'A tech enthusiast that is always willing to profer solutions to problems' });
 })
 
