@@ -1,0 +1,13 @@
+### POST TEST
+POST http://localhost:5000/
+Content-Type: application/json
+
+{
+    "operation_type": "subtract",
+    "x": 10,
+    "y": 5
+}
+
+
+###
+GET  http://localhost:5000/
